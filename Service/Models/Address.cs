@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Entities
+namespace Service.Models
 {
-    public class AddressEntity
+    public class Address
     {
-        public int AddressId { get; set; }
+        public int Id { get; set; }
         public string Street { get; set; }
         public string Zipcode { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
     }
 }

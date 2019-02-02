@@ -10,6 +10,6 @@ namespace Service.Models
     public class Dentist
     {
         public int Id { get; set; }
-        public ContactEntity Contact { get; set; }
+        public Contact Contact { get; set; }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\bin\Debug\Repository.dll
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\bin\Debug\Repository.pdb
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\bin\Debug\Dapper.dll
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\bin\Debug\Dapper.xml
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.dll
+C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.pdb

@@ -5,3 +5,8 @@
 /PlanetDDSAPI/bin
 /PlanetDDSAPI/obj/Debug
 /.vs
+/PlanetDDSUnitTest/bin/Debug
+/PlanetDDSUnitTest/obj/Debug
+/Repository/bin/Debug
+/Service/bin/Debug
+/packages

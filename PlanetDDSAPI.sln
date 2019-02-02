@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{A580159C-AB37-461D-8DBB-863D62C0874E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDDSUnitTest", "PlanetDDSUnitTest\PlanetDDSUnitTest.csproj", "{3D4728F3-4F50-446E-88BC-DB1543978211}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A580159C-AB37-461D-8DBB-863D62C0874E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A580159C-AB37-461D-8DBB-863D62C0874E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A580159C-AB37-461D-8DBB-863D62C0874E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4728F3-4F50-446E-88BC-DB1543978211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4728F3-4F50-446E-88BC-DB1543978211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4728F3-4F50-446E-88BC-DB1543978211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4728F3-4F50-446E-88BC-DB1543978211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
