@@ -1,0 +1,14 @@
+﻿{
+  "InsurancePolicyNumber": "12345",
+  "InsuranceCompany": "Aetna",
+  "TotalCost": "132.34",
+  "PaidAmount": "100.00",
+  "Balance": "2343.33",
+  "Patient": {
+    "Id": 2
+  },
+  "Dentist": {
+    "Id": 1
+  },
+  "VisitDate": "2/01/2019"
+}

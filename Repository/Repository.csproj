@@ -56,6 +56,7 @@
     <Compile Include="Repositories\VisitRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Database\TestPost.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
