@@ -25,12 +25,10 @@ namespace Repository.Repositories
             return dentist;
         }
 
-        public DentistEntity SaveDentist(DentistEntity dentist)
-        {
-            var id = conn.ExecuteScalar("sp_CreateDentist", new { ContactId = dentist.ContactId }, commandType: System.Data.CommandType.StoredProcedure);
-            dentist.DentistId = (int)id;
-
-            return dentist;
-        }
+        //public DentistEntity SaveDentist(DentistEntity dentist)
+        //{
+        //    var id = conn.ExecuteScalar("sp_CreateDentist", new { dentist.FirstName, dentist.LastName, dentist.AddressId,  }, commandType: System.Data.CommandType.StoredProcedure);
+        //    return GetDentist((int)id);
+        //}
     }
 }

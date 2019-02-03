@@ -10,11 +10,11 @@ namespace PlanetDDSUnitTest
         [TestMethod]
         public void SaveDentist()
         {
-            var repo = new DentistRepository();
-            repo.SaveDentist(new Repository.Entities.DentistEntity
-            {
-                ContactId = 1
-            });
+            //var repo = new DentistRepository();
+            //repo.SaveDentist(new Repository.Entities.DentistEntity
+            //{
+            //    ContactId = 1
+            //});
         }
     }
 }

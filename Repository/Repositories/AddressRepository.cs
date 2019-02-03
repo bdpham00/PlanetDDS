@@ -35,9 +35,8 @@ namespace Repository.Repositories
                     City = address.City,
                     State = address.State
                 }, commandType: System.Data.CommandType.StoredProcedure);
-            address.AddressId = (int)id;
 
-            return address;
+            return GetAddress((int)id);
         }
     }
 }

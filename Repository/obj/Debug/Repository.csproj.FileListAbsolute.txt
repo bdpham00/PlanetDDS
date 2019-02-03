@@ -7,3 +7,10 @@ C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.csproj.
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.csproj.CopyComplete
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.dll
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Repository\obj\Debug\Repository.pdb
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\bin\Debug\Repository.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\bin\Debug\Repository.pdb
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\bin\Debug\Dapper.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\bin\Debug\Dapper.xml
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\obj\Debug\Repository.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Repository\obj\Debug\Repository.pdb

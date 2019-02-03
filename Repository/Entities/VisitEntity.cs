@@ -14,7 +14,6 @@ namespace Repository.Entities
         public DateTime VisitDate { get; set; }
         public string InsurancePolicyNumber { get; set; }
         public string InsuranceCompany { get; set; }
-        public int InsuranceAddressId { get; set; }
         public decimal TotalCost { get; set; }
         public decimal PaidAmount { get; set; }
         public decimal Balance { get; set; }

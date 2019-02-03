@@ -17,7 +17,6 @@ namespace Service.Models
         public decimal Balance { get; set; }
         public Patient Patient { get; set; }
         public Dentist Dentist { get; set; }
-        public Address Address { get; set; }
         public DateTime VisitDate { get; set; }
     }
 }

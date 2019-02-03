@@ -19,10 +19,10 @@ namespace Repository.Repositories
 
         public VisitEntity GetVisit(int id)
         {
-            var address = conn.Query<VisitEntity>("sp_GetVisit", new { Id = id }, commandType: System.Data.CommandType.StoredProcedure)
+            var visit = conn.Query<VisitEntity>("sp_GetVisit", new { Id = id }, commandType: System.Data.CommandType.StoredProcedure)
             .FirstOrDefault();
 
-            return address;
+            return visit;
         }
 
         public VisitEntity SaveVisit(VisitEntity visit)
@@ -35,16 +35,13 @@ namespace Repository.Repositories
                     visit.VisitDate,
                     visit.InsurancePolicyNumber,
                     visit.InsuranceCompany,
-                    visit.InsuranceAddressId,
                     visit.TotalCost,
                     visit.PaidAmount,
                     visit.Balance
                 }, 
                 commandType: System.Data.CommandType.StoredProcedure);
 
-            visit.PatientId = (int)id;
-
-            return visit;
+            return GetVisit((int)id);
         }
     }
 }

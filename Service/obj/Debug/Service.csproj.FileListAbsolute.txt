@@ -9,3 +9,12 @@ C:\Users\bdpha\source\repos\PlanetDDSAPI\Service\obj\Debug\Service.csproj.CoreCo
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Service\obj\Debug\Service.csproj.CopyComplete
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Service\obj\Debug\Service.dll
 C:\Users\bdpha\source\repos\PlanetDDSAPI\Service\obj\Debug\Service.pdb
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Service.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Service.pdb
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Repository.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Dapper.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Repository.pdb
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\bin\Debug\Dapper.xml
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\obj\Debug\Service.dll
+C:\Users\bdpha\Desktop\DDS\PlanetDDS\Service\obj\Debug\Service.pdb

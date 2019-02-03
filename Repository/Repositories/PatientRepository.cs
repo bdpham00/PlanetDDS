@@ -19,18 +19,16 @@ namespace Repository.Repositories
 
         public PatientEntity GetPatient(int id)
         {
-            var address = conn.Query<PatientEntity>("sp_GetPatient", new { Id = id }, commandType: System.Data.CommandType.StoredProcedure)
+            var patient = conn.Query<PatientEntity>("sp_GetPatient", new { Id = id }, commandType: System.Data.CommandType.StoredProcedure)
             .FirstOrDefault();
-
-            return address;
-        }
-
-        public PatientEntity SavePatient(PatientEntity patient)
-        {
-            var id = conn.ExecuteScalar("sp_CreatePatient", new { ContactId = patient.ContactId }, commandType: System.Data.CommandType.StoredProcedure);
-            patient.PatientId = (int)id;
 
             return patient;
         }
+
+        //public PatientEntity SavePatient(PatientEntity patient)
+        //{
+        //    var id = conn.ExecuteScalar("sp_CreatePatient", new { ContactId = patient.ContactId }, commandType: System.Data.CommandType.StoredProcedure);
+        //    return GetPatient((int)id);
+        //}
     }
 }

@@ -18,31 +18,31 @@ namespace Service.Converter
             _repo = new PatientRepository();
         }
 
-        public PatientEntity Convert(Patient source)
-        {
-            PatientEntity destination = _repo.GetPatient(source.Id);
+        //public PatientEntity Convert(Patient source)
+        //{
+        //    PatientEntity destination = _repo.GetPatient(source.Id);
 
-            if (destination == null)
-                return new PatientEntity();
+        //    if (destination == null)
+        //        return new PatientEntity();
 
-            destination.ContactId = source.Contact.Id;
-            destination.PatientId = source.Id;
+        //    destination.ContactId = source.Contact.Id;
+        //    destination.PatientId = source.Id;
 
-            return destination;
-        }
+        //    return destination;
+        //}
 
-        public Patient Convert(PatientEntity source)
-        {
-            Patient destination = new Patient
-            {
-                Id = source.PatientId,
-                Contact = new Contact
-                {
-                    Id = source.ContactId
-                }
-            };
+        //public Patient Convert(PatientEntity source)
+        //{
+        //    Patient destination = new Patient
+        //    {
+        //        Id = source.PatientId,
+        //        Contact = new Contact
+        //        {
+        //            Id = source.ContactId
+        //        }
+        //    };
 
-            return destination;
-        }
+        //    return destination;
+        //}
     }
 }

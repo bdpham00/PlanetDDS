@@ -9,7 +9,10 @@ namespace Repository.Entities
     public class DentistEntity
     {
         public int DentistId { get; set; }
-        public int ContactId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int AddressId { get; set; }
+        public string LicenseNumber { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
     }
