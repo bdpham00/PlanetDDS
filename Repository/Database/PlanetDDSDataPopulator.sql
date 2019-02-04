@@ -22,19 +22,19 @@ VALUES
 INSERT INTO DENTIST
 (AddressId, FirstName, LastName, LicenseNumber, CreatedDate, UpdatedDate)
 VALUES
-(2, 'Joe', 'Smith', '32123245', GETDATE(), GETDATE())
+(1, 'Joe', 'Smith', '32123245', GETDATE(), GETDATE())
 
 INSERT INTO Patient
 (AddressId, FirstName, LastName, DateOfBirth, CreatedDate, UpdatedDate)
 VALUES
-(3, 'Bao', 'Pham', '02/25/1991', GETDATE(), GETDATE())
+(2, 'Bao', 'Pham', '02/25/1991', GETDATE(), GETDATE())
 
 INSERT INTO Patient
 (AddressId, FirstName, LastName, DateOfBirth, CreatedDate, UpdatedDate)
 VALUES
-(4, 'Josh', 'Johnson', '05/22/1984', GETDATE(), GETDATE())
+(3, 'Josh', 'Johnson', '05/22/1984', GETDATE(), GETDATE())
 
 INSERT INTO Patient
 (AddressId, FirstName, LastName, DateOfBirth, CreatedDate, UpdatedDate)
 VALUES
-(5, 'Deborah', 'Alexander', '01/12/1943', GETDATE(), GETDATE())
+(4, 'Deborah', 'Alexander', '01/12/1943', GETDATE(), GETDATE())

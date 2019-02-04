@@ -2,7 +2,6 @@
 drop table Visit
 drop table Patient
 drop table Dentist
-drop table Contact
 drop table Address
 */
 
